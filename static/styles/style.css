@@ -1,0 +1,161 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Светлый фон */
+    color: #444;
+    line-height: 1.7;
+}
+
+header {
+    background: linear-gradient(to right, #4a90e2, #63b8ff); /* Градиент */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень для текста */
+}
+
+main {
+    padding: 30px;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для контента */
+.content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.poster-image {
+    max-width: 250px; /* Немного больше */
+    height: auto;
+    margin: 15px auto;
+    border: 3px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Анимация при наведении */
+}
+
+.poster-image:hover {
+    transform: scale(1.05); /* Увеличение при наведении */
+}
+
+p {
+    margin-bottom: 1.2em;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Стили для информации о викторине */
+.quiz-info {
+    border-top: 2px dashed #ccc; /* Пунктирная линия */
+    padding-top: 25px;
+    text-align: center;
+}
+
+.quiz-info h2 {
+    color: #336699;
+    margin-bottom: 15px;
+}
+
+.quiz-info a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.quiz-info a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.quiz-info p{
+    text-align: left;
+    padding-top: 2px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Адаптивность (для мобильных устройств) */
+@media (max-width: 600px) {
+    main {
+        padding: 20px;
+    }
+
+    .poster-image {
+        max-width: 180px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+/* Стили для страницы coin.html */
+.coin-article {
+    text-align: left; /* Выравнивание текста по левому краю */
+}
+
+.coin-article h2 {
+    color: #336699;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.coin-article ul {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.coin-image {
+    max-width: 250px; /* Немного больше */
+    height: auto;
+    margin: 15px auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #555;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #333;
+}
+
+ul{
+    position: relative; /*  Обязательно для позиционирования псевдоэлемента */
+    padding-left: 20px; /*  Место для точки и отступа текста */
+    margin-bottom: 0.5em
+}
+
+.stet{
+    text-align: left;
+}
